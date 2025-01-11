@@ -1,0 +1,103 @@
+body {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/044/444/294/non_2x/floral-pattern-baroque-wallpaper-damask-seamless-background-black-and-brown-ornament-vector.jpg);
+  background-size: cover;
+  color: ghostwhite;
+  font-family: 'Faculty Glyphic', sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative; 
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.6);
+}
+p {
+  margin-left: 10px;
+  margin-top: 9px;
+}
+.navbar-nav .nav-item {
+  margin-right: 20px; 
+  margin-left: 50px; 
+}
+
+.navbar-nav .nav-link {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+        background: rgba(255, 255, 255, 0.9); 
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        max-width: 500px;
+        width: 100%;
+}
+
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+}
+.form-group label {
+        font-size: 1rem;
+        color: #333;
+        margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+        box-sizing: border-box;
+}
+
+.form-group textarea {
+        resize: none; 
+    }
+
+    button[type="submit"] {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        font-size: 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+.logo {
+  height: 70px;
+  width: 70px;
+}
+@media (max-width: 768px) {
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+

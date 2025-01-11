@@ -1,0 +1,75 @@
+body {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/044/444/294/non_2x/floral-pattern-baroque-wallpaper-damask-seamless-background-black-and-brown-ornament-vector.jpg);
+  background-size: cover;
+  color: ghostwhite;
+  font-family: 'Faculty Glyphic', sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative; 
+  height: 100vh;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 20px; 
+  margin-left: 50px; 
+}
+
+.navbar-nav .nav-link {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.6);
+}
+
+h6 {
+  text-align: center;
+  text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.6);
+}
+
+p {
+  margin-left: 10px;
+  margin-top: 9px;
+}
+.carousel-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+.carousel {
+  width: 50%;          
+  height: 50vh;        
+  max-height: 40vh; 
+  max-width: 100%;
+  margin-left: 350px;
+  margin-top: 50px;
+}   
+.carousel-item {
+  object-fit: cover;       
+  height: 100%;            
+  width: 100%; 
+}
+.logo {
+  height: 70px;
+  width: 70px;
+}
+@media (max-width: 768px) {
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
